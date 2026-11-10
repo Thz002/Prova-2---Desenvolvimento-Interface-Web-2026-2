@@ -157,5 +157,11 @@
       "naRoca": false
     }
   ],
-  "votos": []
+  "votos": [
+    {
+      "participanteId": 11,
+      "data": "2026-11-10T13:19:44.235Z",
+      "id": 1
+    }
+  ]
 }

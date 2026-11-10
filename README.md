@@ -14,11 +14,11 @@ Aplicação para a votação de eliminação de **A Fazenda 2026**, feita com **
 |:----------------------------------------------------:|
 |                  Votação (voto registrado)           |
 
-| <img src="prints/05_resultado.png" alt="Resultado" width="1000"/> |
+| <img src="prints/Captura de tela 2026-11-10 101950.png" alt="Resultado" width="1000"/> |
 |:----------------------------------------------------:|
 |                      Resultado                       |
 
-| <img src="prints/02_resultado_vazio.png" alt="Resultado sem votos" width="1000"/> |
+| <img src="prints/Captura de tela 2026-11-10 101928.png" alt="Resultado sem votos" width="1000"/> |
 |:----------------------------------------------------:|
 |                 Resultado sem votos                  |
 
