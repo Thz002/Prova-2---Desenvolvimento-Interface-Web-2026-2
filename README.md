@@ -6,11 +6,11 @@ Aplicação para a votação de eliminação de **A Fazenda 2026**, feita com **
 
 ### Captura de Tela
 
-| <img src="prints/01_home.png" alt="Home" width="1000"/> |
+| <img src="prints/Captura de tela 2026-11-10 101349.png" alt="Home" width="1000"/> |
 |:----------------------------------------------------:|
 |                        Home                          |
 
-| <img src="prints/04_voto_registrado.png" alt="Voto registrado" width="1000"/> |
+| <img src="prints/Captura de tela 2026-11-10 101608.png" alt="Voto registrado" width="1000"/> |
 |:----------------------------------------------------:|
 |                  Votação (voto registrado)           |
 
