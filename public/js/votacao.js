@@ -7,10 +7,10 @@ let participantesDaRoca = [];
 function criarCardRoca(participante) {
   return `
     <div class="col">
-      <div class="card card-fazenda h-100 position-relative overflow-hidden">
+      <div class="card card-fazenda card-roca h-100 position-relative overflow-hidden">
         <span class="badge bg-danger position-absolute top-0 end-0 m-2 z-1">Na roça</span>
 
-        <div class="ratio ratio-4x3">
+        <div class="ratio ratio-16x9">
           <img src="${participante.foto}" class="card-img-top object-fit-cover"
                alt="Foto de ${participante.nome}">
         </div>
@@ -31,7 +31,7 @@ function criarCardPeao(participante) {
   return `
     <div class="col">
       <div class="card card-fazenda h-100 overflow-hidden">
-        <div class="ratio ratio-1x1">
+        <div class="ratio ratio-16x9">
           <img src="${participante.foto}" class="card-img-top object-fit-cover"
                alt="Foto de ${participante.nome}">
         </div>

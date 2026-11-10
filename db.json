@@ -26,5 +26,6 @@
     {"id": 24, "nome": "Stephanie Gomes", "foto": "img/participantes/stephanie-gomes.jpg", "naRoca": false},
     {"id": 25, "nome": "Thaíde", "foto": "img/participantes/thaide.jpg", "naRoca": true},
     {"id": 26, "nome": "Tina Calamba", "foto": "img/participantes/tina-calamba.jpg", "naRoca": false}
-  ]
+  ],
+  "votos": []
 }
