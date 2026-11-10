@@ -18,16 +18,17 @@ function contarVotos(votos, participanteId) {
 
 function criarLinha(participante, percentual, maisVotado) {
   let classeCard = "card card-fazenda mb-3";
-  let classeBarra = "progress-bar bg-dark";
+  let classeBarra = "progress-bar barra-madeira";
   let badge = "";
 
   if (maisVotado) {
-    classeCard += " border-danger";
+    classeCard += " border-danger card-destaque";
     classeBarra = "progress-bar bg-danger";
-    badge = `<span class="badge bg-danger ms-2">Sairia hoje</span>`;
+    badge = `<span class="badge bg-danger ms-2 align-middle">Sairia hoje</span>`;
   }
 
-  let textoVotos = participante.votos === 1 ? "1 voto" : `${participante.votos} votos`;
+  const textoVotos = participante.votos === 1 ? "1 voto" : `${participante.votos} votos`;
+  const percentualTexto = percentual.replace(".", ",");
 
   return `
     <div class="${classeCard}">
@@ -40,7 +41,7 @@ function criarLinha(participante, percentual, maisVotado) {
                aria-valuenow="${percentual}" aria-valuemin="0" aria-valuemax="100">
             <div class="${classeBarra}" style="width: ${percentual}%"></div>
           </div>
-          <small class="d-block mt-1">${percentual}% (${textoVotos})</small>
+          <small class="d-block mt-1 fw-semibold">${percentualTexto}% (${textoVotos})</small>
         </div>
       </div>
     </div>`;
@@ -79,7 +80,6 @@ async function carregarResultado() {
       });
     }
 
-
     lista.sort((a, b) => b.votos - a.votos);
 
     let html = "";
@@ -104,8 +104,6 @@ async function zerarVotacao() {
 
   try {
     const votos = await buscarVotos();
-
-
     for (const voto of votos) {
       await apagarVoto(voto.id);
     }
